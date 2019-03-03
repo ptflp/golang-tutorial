@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println(math.Pi)
-	fmt.Println(math.pi)
+	fmt.Println(math.Pi)
 }
