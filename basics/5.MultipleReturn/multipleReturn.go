@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func swap(x, y string) (string, string) {
-	return y, x
+func swap(x, y, z string) (string, string, string) {
+	return y, x, z
 }
 
 func main() {
-	a, b := swap("hello", "world")
-	fmt.Println(a, b)
+	a, b, c := swap("hello", "world", "test")
+	fmt.Println(a, b, c)
 }
